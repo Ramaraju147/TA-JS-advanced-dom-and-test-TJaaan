@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(38,113,244);
+}
+
+h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.container{
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+}
+ul{
+    padding: 0;
+}
+
+input{
+    padding: 1rem;
+    border: none;
+    height: 45px;
+    margin-right: 0;
+    font-size: 1.2rem;
+}
+
+form{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background: white;
+    color: black;
+    border: none;
+    margin:0;
+    height: 45px;
+    color: rgb(38,113,244);
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+li{
+    background: white;
+    color: rgb(38,113,244);
+    padding: 1rem 0rem;
+    width: 40%;
+    margin: 1rem auto;
+    cursor: move;
+}
+
+.hover{
+    width: 50%;
+    padding: 1.5rem 0rem;
+}
